@@ -1,31 +1,45 @@
 .hero {
   background-image: url('../images/app-header.jpg');
-  height: 70vh;
-  background-size: contain;
+  height: 85vh;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 0.5%;
 }
 
-.main-image {
+.main-image-text {
   text-align: center;
+  color: #fff;
+  padding-top: 20%;
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h4 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+h5 {
   font-size: 1.25em;
-  text-align: center
+  text-align: center;
 }
 
 .featured-flex {
   display: flex;
-  justify-conent: space-around;
+  justify-content: space-around;
   align-items: center;
-  align-content: center;
+  flex-wrap: wrap;
 }
 
 .image-details img {
   width: 25vw;
+  height: 45vh;
+}
+
+.image-details {
+  flex-basis: 5%;
 }

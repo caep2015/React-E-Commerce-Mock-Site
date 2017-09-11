@@ -8,27 +8,31 @@ export default class BaseLayout extends Component {
     return (
       <div className='base-layout'>
         <nav className='main-nav'>
-          <div className='nav-links'>
-            <div>
-              <img src={require('../images/hglkids-logo.JPG')} alt='' />
-            </div>
-            <div>
-              <NavLink exact to='/' activeStyle={{color: 'fff'}}>Home</NavLink>
-            </div>
-            <div>
-              <NavLink to='/item1' activeClassName='selected'>item1</NavLink>
-            </div>
-            <div>
-              <NavLink to='/item2' activeClassName='selected'>item2</NavLink>
-            </div>
-            <div>
-              <NavLink to='/item3' activeClassName='selected'>item3</NavLink>
-            </div>
-            <div>
-              <NavLink to='/item4' activeClassName='selected'>item4</NavLink>
-            </div>
-          </div>
+         <div className='nav-container'>
+          <ul className='nav-ul'>
+           <li className='nav-item'><NavLink exact to='/' activeStyle={{
+             color: 'fff'}}><span className='nav-link-text'><img className='hglkids-logo' src={require('../images/hglkids-logo.JPG')} alt="HGLkids logo"/></span></NavLink></li>
+           <li className='nav-item'><NavLink to='/holiday' activeStyle={{
+             color: '#bdc3c7'}}><span className='nav-link-text'>Holiday</span></NavLink></li>
+           <li className='nav-item'><NavLink to='/Toys' activeStyle={{
+             color: '#bdc3c7'}}><span className='nav-link-text'>Toys</span></NavLink></li>
+           <li className='nav-item'><NavLink to='/Dolls' activeStyle={{
+             color: '#bdc3c7'}}><span className='nav-link-text'>Dolls&Bears</span></NavLink></li>
+           <li className='nav-item'><NavLink to='/Clothes' activeStyle={{
+             color: '#bdc3c7'}}><span className='nav-link-text'>Clothes</span></NavLink></li>
+           <li className='nav-item'><NavLink to='/item5' activeStyle={{
+             color: '#bdc3c7'}}><span className='nav-link-text'>Weather Gear</span></NavLink></li>
+           <li className='nav-item'><NavLink to='/About' activeStyle={{
+             color: '#bdc3c7'}}><span className='nav-link-text'>About</span></NavLink></li>
+           <li className='nav-item'><NavLink to='/contact' activeStyle={{
+             color: '#bdc3c7'}}><span className='nav-link-text'>Contact</span></NavLink></li>
+           <li className='nav-item'><NavLink to='/search'><span className='nav-link-text'><i aria-hidden='true' className='fa fa-search'></i></span></NavLink></li>
+           <li className='nav-item'><NavLink to='/cart' activeStyle={{
+             color: '#bdc3c7'}}><span className='nav-link-text'><i aria-hidden='true' className='fa fa-shopping-bag'></i></span></NavLink></li>
+          </ul>
+         </div>
         </nav>
+
 
         {this.props.children}
 

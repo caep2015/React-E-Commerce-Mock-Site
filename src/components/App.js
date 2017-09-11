@@ -6,30 +6,28 @@ class App extends Component {
     return (
       <div className="App">
         <header className="hero">
-          <div className='main-image'>
+          <div className='main-image-text'>
             <h4>Shop Early for Christmas</h4>
-            <span><h2>We have got you covered.</h2></span>
+            <span><h2>We&apos;ve got you covered.</h2></span>
           </div>
         </header>
-        <div className='featured-flex'>
-          <div className='image-details'>
-            <img src='' alt="item1" />
-            <h5>Item1</h5>
-          </div>
-          <div className='image-details'>
-            <img src='' alt='item2' />
-            <h5>Item2</h5>
-          </div>
-          <div className='image-details'>
-            <img src='' alt='item3' />
-            <h5>Item3</h5>
-          </div>
-          <div className='image-details'>
-            <img src='' alt='item5' />
-            <h5>Item4</h5>
-          </div>
-        </div>
-      </div>
+        <div className='featured-products'>
+          <div className='featured-flex'>
+           <div className='image-details'>
+            <img src={require('../images/featured1.jpg')} alt="holiday apparel" />
+           </div>
+           <div className='image-details'>
+            <img src={require('../images/featured2.jpg')} alt='books' />
+           </div>
+           <div className='image-details'>
+            <img src={require('../images/featured3.jpg')} alt='toys' />
+           </div>
+           <div className='image-details'>
+            <img src={require('../images/featured4.jpg')} alt='weather gear' />
+           </div>
+         </div>
+       </div>
+     </div>
     )
   }
 }
