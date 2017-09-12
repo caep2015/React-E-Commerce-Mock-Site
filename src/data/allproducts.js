@@ -11,7 +11,7 @@ const allProducts = [
   {
     id: 2,
     name: 'Rudolph Socks',
-    img: require('../images/holiday-2.png'),
+    img: require('../images/holiday-2.jpg'),
     color: 'Red and White',
     size: '9-11',
     price: '$12',
@@ -28,51 +28,57 @@ const allProducts = [
   },
   {
     id: 4,
-    name: 'Stacking Blocks',
+    name: 'Bear',
     img: require('../images/toys-1.jpg'),
-    color: 'Multi',
+    color: 'Brown',
+    size: '20 inches tall',
     price: '$18',
-    description: 'Bright-colored boxes.'
+    description: 'Super soft plush stuffed bear. No beads, embroidered eyes and nose. Safe for infants. Hypoallergenic.'
   },
   {
     id: 5,
     name: 'Fun With Beads',
     img: require('../images/toys-2.jpg'),
+    color: 'Multi',
+    size: '300 Beads',
     price: '$12',
-    description: 'Kit includes over 100 beads, bead board, pattern book. Hours of creative fun!'
+    description: 'Kit comes with 300 beads, bead board, and ideas book. Hours of creative fun!'
   },
   {
     id: 6,
     name: 'Beach Toy Kit',
     img: require('../images/toys-3.jpg'),
     color: 'Blue and Purple',
+    size: 'Kit inlcudes pail, shovel, molds, and dump truck!',
     price: '$16',
-    description: 'Be ready for your beach vacation! This kit includes sand castle building tools: a pail, shovel, and molds.'
+    description: 'Be ready for your beach vacation! Sand castle fun.'
   },
   {
     id: 7,
     name: 'Vintage Dolls Collection',
     img: require('../images/dolls-1.jpg'),
+    color: 'Green',
     size: '18 inch doll and 10 inch Baby doll',
     price: '$150',
     description: 'Two vintage-style dolls and stroller'
   },
   {
     id: 8,
-    name: 'Plush Bear',
-    img: require('../images/dolls-2.jpg'),
-    color: 'White',
-    size: '24 inches',
-    price: '$12',
-    description: 'Super soft plush stuffed bear. No beads, embroidered eyes and nose. Safe for infants. Hypoallergenic.'
+    name: 'Betty Doll',
+    img: require('../images/dolls-2.png'),
+    color: 'Pink',
+    size: '18 inches',
+    price: '$100',
+    description: 'This beautiful doll has soft body and blue sleep eyes.'
   },
   {
     id: 9,
     name: 'Doll House',
     img: require('../images/dolls-3.jpg'),
-    size: '3 Story House',
-    price: '$60',
-    description: 'Furniture and 2 6 inch dolls included!'
+    size: '30 Inches',
+    price: '$160',
+    color: 'Pine Wood - Panels painted to different seasons',
+    description: 'Maple wood.'
   },
   {
     id: 10,
@@ -127,7 +133,7 @@ const allProducts = [
     size: '3',
     price: '$32',
     description: 'Dawn Filled, Faux Fur trim, hooded, zip front, matching hat and mittens included.'
-  }    
+  }
 ]
 
 export default allProducts

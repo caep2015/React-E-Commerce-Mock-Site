@@ -1,26 +1,30 @@
 const toys = [
   {
     id: 4,
-    name: 'Stacking Blocks',
+    name: 'Bear',
     img: require('../images/toys-1.jpg'),
-    color: 'Multi',
+    color: 'Brown',
+    size: '20 inches tall',
     price: '$18',
-    description: 'Bright-colored boxes.'
+    description: 'Super soft plush stuffed bear. No beads, embroidered eyes and nose. Safe for infants. Hypoallergenic.'
   },
   {
     id: 5,
     name: 'Fun With Beads',
     img: require('../images/toys-2.jpg'),
+    color: 'Multi',
+    size: '300 Beads',
     price: '$12',
-    description: 'Kit includes over 100 beads, bead board, pattern book. Hours of creative fun!'
+    description: 'Kit comes with 300 beads, bead board, and ideas book. Hours of creative fun!'
   },
   {
     id: 6,
     name: 'Beach Toy Kit',
     img: require('../images/toys-3.jpg'),
     color: 'Blue and Purple',
+    size: 'Kit inlcudes pail, shovel, molds, and dump truck!',
     price: '$16',
-    description: 'Be ready for your beach vacation! This kit includes sand castle building tools: a pail, shovel, and molds.'
+    description: 'Be ready for your beach vacation! Sand castle fun.'
   }
 ]
 

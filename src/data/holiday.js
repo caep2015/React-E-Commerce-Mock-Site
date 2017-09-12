@@ -11,7 +11,7 @@ const holiday = [
   {
     id: 2,
     name: 'Rudolph Socks',
-    img: require('../images/holiday-2.png'),
+    img: require('../images/holiday-2.jpg'),
     color: 'Red and White',
     size: '9-11',
     price: '$12',
