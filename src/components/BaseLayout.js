@@ -17,11 +17,11 @@ export default class BaseLayout extends Component {
            <li className='nav-item'><NavLink to='/Toys' activeStyle={{
              color: '#bdc3c7'}}><span className='nav-link-text'>Toys</span></NavLink></li>
            <li className='nav-item'><NavLink to='/Dolls' activeStyle={{
-             color: '#bdc3c7'}}><span className='nav-link-text'>Dolls&Bears</span></NavLink></li>
+             color: '#bdc3c7'}}><span className='nav-link-text'>Dolls</span></NavLink></li>
            <li className='nav-item'><NavLink to='/Clothes' activeStyle={{
              color: '#bdc3c7'}}><span className='nav-link-text'>Clothes</span></NavLink></li>
-           <li className='nav-item'><NavLink to='/item5' activeStyle={{
-             color: '#bdc3c7'}}><span className='nav-link-text'>Weather Gear</span></NavLink></li>
+           <li className='nav-item'><NavLink to='/Weather' activeStyle={{
+             color: '#bdc3c7'}}><span className='nav-link-text'>Outerwear</span></NavLink></li>
            <li className='nav-item'><NavLink to='/About' activeStyle={{
              color: '#bdc3c7'}}><span className='nav-link-text'>About</span></NavLink></li>
            <li className='nav-item'><NavLink to='/contact' activeStyle={{
@@ -38,9 +38,10 @@ export default class BaseLayout extends Component {
 
         <footer className='footer'>
           <div className='footer-details'>
-            <span></span>
+            <span>Copyright © 2017 by Carlota Pearl. All rights reserved.</span>
           </div>
         </footer>
+
       </div>
     )
   }

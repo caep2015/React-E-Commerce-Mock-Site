@@ -1,10 +1,81 @@
-body {
-  margin: 0;
-  padding: 0;
-}
 * {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+}
+
+.cat-hero {
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 1%;
+}
+
+#clothes-hero {
+  background-image: url('../images/header-clothes.jpg');
+}
+
+#dolls-hero {
+  background-image: url('../images/header-dolls.jpg');
+}
+
+#toys-hero {
+  background-image: url('../images/header-toys.jpg');
+}
+
+#weather-hero {
+  background-image: url('../images/header-weather.jpg');
+}
+
+#holiday-hero {
+  background-image: url('../images/header-holiday.jpg');
+}
+
+.holiday-hero-text {
+  color: #fff;
+  text-align: center;
+  padding-top: 20%;
+}
+.dolls-hero-text {
+  color: #fff;
+  padding-top: 35%;
+  text-align: center;
+}
+.clothes-hero-text {
+  color: #00cdcd;
+  padding-top: 35%;
+}
+.weather-hero-text h6 {
+  font-weight: 400;
+  font-size: 2.25em;
+  color: yellow;
+  text-align: right;
+  padding: 38% 5% 0% 0%;
+}
+
+.hero-text {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.product-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+}
+.cat-product img {
+  width: 27vw;
+}
+.cat-product-target img {
+  width: 22vw;
+}
+.cat-product a, h4 {
+  font-size: 1.1em;
+  margin-top: 5%;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
 }
