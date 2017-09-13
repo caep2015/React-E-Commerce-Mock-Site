@@ -30,8 +30,17 @@
 .nav-ul a:hover {
   color: #bdc3c7;
 }
-footer {
-  background-color: #000;
-  height: 5vw;
-  color: #fff;
+
+.footer-details {
+  background-color: #fff;
+  height: 1.5vw;
+  color: grey;
+  margin: -10px 0px 15px 0px;
+  text-align: center;
+}
+.footer-hero img {
+  width: 75vw;
+}
+.footer-hero {
+  text-align: center;
 }

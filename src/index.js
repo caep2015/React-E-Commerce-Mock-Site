@@ -11,6 +11,8 @@ import Dolls from './components/Dolls'
 import Weather from './components/Weather'
 import Toys from './components/Toys'
 import Holiday from './components/Holiday'
+import Contact from './components/Contact'
+import About from './components/About'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -27,6 +29,8 @@ ReactDOM.render(
         <Route path='/weather' component={Weather} />
         <Route path='/holiday/:product' component={ProductInfo} />
         <Route path='/holiday' component={Holiday} />
+        <Route path='/contact' component={Contact} />
+        <Route path='/about' component={About} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>

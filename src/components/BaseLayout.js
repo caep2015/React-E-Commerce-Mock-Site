@@ -37,11 +37,13 @@ export default class BaseLayout extends Component {
         {this.props.children}
 
         <footer className='footer'>
+          <div className='footer-hero'>
+            <img src={require('../images/boilerplate.jpg')} alt="hero footer" style={{width: "100%", hight: "50%"}} />
+          </div>
           <div className='footer-details'>
             <span>Copyright © 2017 by Carlota Pearl. All rights reserved.</span>
           </div>
         </footer>
-
       </div>
     )
   }

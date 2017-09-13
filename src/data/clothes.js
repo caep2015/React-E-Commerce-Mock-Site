@@ -1,12 +1,12 @@
 const clothes = [
   {
     id: 10,
-    name: 'Knit Set',
+    name: 'Pink Knit Set',
     img: require('../images/clothes-1.jpg'),
     color: 'Pink',
     size: '9-12 Months',
     price: '$24',
-    description: '100% Cotton.'
+    description: '100% Cotton. 4 Piece set includes, pink and white striped jumper, pants, heart-topped booties and knit top.'
   },
   {
     id: 11,
@@ -19,7 +19,7 @@ const clothes = [
   },
   {
     id: 12,
-    name: 'Elve Costume',
+    name: 'Elf Costume',
     img: require('../images/clothes-3.jpg'),
     color: 'Green',
     size: '6-9 Months',

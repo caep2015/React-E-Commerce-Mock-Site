@@ -30,8 +30,8 @@ const allProducts = [
     id: 4,
     name: 'Bear',
     img: require('../images/toys-1.jpg'),
-    color: 'Brown',
-    size: '20 inches tall',
+    color: 'Brown or white',
+    size: '18 - 20 inches tall',
     price: '$18',
     description: 'Super soft plush stuffed bear. No beads, embroidered eyes and nose. Safe for infants. Hypoallergenic.'
   },
@@ -46,10 +46,10 @@ const allProducts = [
   },
   {
     id: 6,
-    name: 'Beach Toy Kit',
+    name: 'Beach Toy Set',
     img: require('../images/toys-3.jpg'),
     color: 'Blue and Purple',
-    size: 'Kit inlcudes pail, shovel, molds, and dump truck!',
+    size: 'Perfect for a beginner. This set comes complete with a dump truck, shovel, rake, water-squirting pump and boat.',
     price: '$16',
     description: 'Be ready for your beach vacation! Sand castle fun.'
   },
@@ -82,12 +82,12 @@ const allProducts = [
   },
   {
     id: 10,
-    name: 'Knit Set',
+    name: 'Pink Knit Set',
     img: require('../images/clothes-1.jpg'),
     color: 'Pink',
     size: '9-12 Months',
     price: '$24',
-    description: '100% Cotton.'
+    description: '100% Cotton. 4 Piece set includes, pink and white striped jumper, pants, heart-topped booties and knit top.'
   },
   {
     id: 11,
@@ -100,7 +100,7 @@ const allProducts = [
   },
   {
     id: 12,
-    name: 'Elve Costume',
+    name: 'Elf Costume',
     img: require('../images/clothes-3.jpg'),
     color: 'Green',
     size: '6-9 Months',

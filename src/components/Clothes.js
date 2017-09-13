@@ -13,7 +13,7 @@ export default class Clothes extends Component {
             <h6>New Collection!</h6>
           </div>
         </div>
-        <div className='product-flex' >
+        <div className='clothes-product-flex' >
           {clothes.map((product) =>
             <Link to={`${match.url}/${product.name}`}>
               <div className='cat-product' key={product.id}>
