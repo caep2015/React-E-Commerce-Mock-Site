@@ -10,7 +10,7 @@ export default class Clothes extends Component {
       <div className='clothes'>
         <div className='cat-hero' id='clothes-hero'>
           <div className='clothes-hero-text'>
-            <h6>New Collection!</h6>
+            <h2>New Collection!</h2>
           </div>
         </div>
         <div className='clothes-product-flex' >
