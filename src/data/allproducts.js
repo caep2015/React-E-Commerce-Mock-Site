@@ -6,7 +6,7 @@ const allProducts = [
     color: 'Red Polyester fleece, White Faux Fur Trim',
     size: '28" circumference, 14" high',
     price: '$12',
-    description: "Get into the holiday spirit with a personalized Santa Hat. This child-sized version makes a great surprise for Santa’s little helpers. Imported"
+    description: "Get into the holiday spirit with a personalized Santa Hat."
   },
   {
     id: 2,
