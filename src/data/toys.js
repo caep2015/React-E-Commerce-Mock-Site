@@ -19,10 +19,10 @@ const toys = [
   },
   {
     id: 6,
-    name: 'Beach Toy Kit',
+    name: 'Beach Toy Set',
     img: require('../images/toys-3.jpg'),
     color: 'Blue and Purple',
-    size: 'Kit inlcudes pail, shovel, molds, and dump truck!',
+    size: 'Perfect for a beginner. This set comes complete with a dump truck, shovel, rake, water-squirting pump and boat.',
     price: '$16',
     description: 'Be ready for your beach vacation! Sand castle fun.'
   }
