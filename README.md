@@ -19,10 +19,6 @@ The Iron Yard 12.1, React Week 4, Weekly Project, Create E-Commerce site
 
 * The final project should have a professional feel with attractive styling.
 
-## Hard Mode  
+## Styling inspired by the Apple Store 
 
-* Add a cart component to your program, link each item from the website's different pages to be able to be purchased and stored in `state` and passed as `props`.
-
-* Add the cart contents to local storage to save a user's choices.
-
-* Be able to remove and change the quantity of the item in the cart.
+![About](ecs1.JPG "about view")
